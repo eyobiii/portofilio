@@ -108,3 +108,33 @@
     }
 
 }
+@media (max-width: 480px) {
+    .navbar {
+        margin: 10px 10vw;
+    }
+    .navbar-logo h1 {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+    .navbar-logo img {
+        height: 24px;
+        width: 36px;
+    }
+    .nav-menu {
+        width: 80vw;
+        right: -80vw;
+        min-width: 200px;
+        max-width: 95vw;
+        padding-top: 40px;
+    }
+    .nav-mob-close {
+        left: 60vw;
+        top: 20px;
+        width: 28px;
+    }
+    .nav-menu li {
+        font-size: 20px;
+        padding-left: 30px;
+        gap: 10px;
+    }
+}
